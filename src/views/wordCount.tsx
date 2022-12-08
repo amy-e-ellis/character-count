@@ -31,8 +31,10 @@ const WordCount = () => {
     <textarea id="area" name="freeform" onInput={count} placeholder="Paste your text here">
       
     </textarea>
+    <div className="wrapper">
     <div className="output">Word Count = {wordcount}</div>
     <div className="output">Character Count = {charcount}</div>
+    </div>
   </>
   );
 };

@@ -17,7 +17,7 @@
         "wordCount": {
           "title": "Word Count",
           "entryPoint": "src/views/wordCount.tsx",
-          "host": "tab",
+          "host": "attribute",
           "recordTypes": [
             "Feature",
             "Requirement"

@@ -34,15 +34,16 @@ export const StylesWordCount = () => (
       
     .output {
         color: black;
-        font-size: 20px;
-        width: 401px;
-        text-align: center;
+        font-size: 16px;
+        text-align: left;
         font-weight: 700;
-        padding: 5px;
         border: 0px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
-    
+    .wrapper {
+      display: flex;
+      justify-content: space-evenly;
+    }
     #word,
     #char {
         font-size: 25px;
