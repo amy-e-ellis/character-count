@@ -1,0 +1,29 @@
+{
+  "name": "amy.character-count",
+  "description": "Character count",
+  "version": "0.0.0",
+  "author": "amy-e-ellis",
+  "repository": {
+    "type": "git",
+    "url": "TODO: Add the GitHub URL to your extension in package.json"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.0"
+  },
+  "ahaExtension": {
+    "contributes": {
+      "views": {
+        "wordCount": {
+          "title": "Word Count",
+          "entryPoint": "src/views/wordCount.tsx",
+          "host": "tab",
+          "recordTypes": [
+            "Feature",
+            "Requirement"
+          ]
+        }
+      }
+    }
+  }
+}
