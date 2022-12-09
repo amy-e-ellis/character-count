@@ -1,24 +1,15 @@
-# Character count
+# Word count
   
-TODO: Supply a short overview of the functionality the extension brings to Aha! Develop
-This [Aha! Develop](https://www.aha.io/develop/overview) extension enables...
+This [Aha! Develop](https://www.aha.io/develop/overview) extension helps you get the word and character counts for copy you are working on in Aha! Add the word count custom field to your Feature or Requirement card layout. Then paste in text to get the counts.
 
 It provides these contributions:
 
-TODO: Add a contribution list here. These should briefly describe each of the features provided by this extension.
-
-## Demo
-
-TODO: Add a short .gif screen recording showing some of the highlights of your extension. This can be recorded using a tool like [LICECap](https://www.cockos.com/licecap/).
-
-![demo](demo.gif)
+- Word count field: Paste in text to find out the word and character count.
 
 ## Installing the extension
 
 **Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**
-
-TODO: Fill in a link to your built extension package
-Install the Character count extension by clicking [here](https://secure.aha.io/settings/account/extensions/install?url=).
+This extension is not quite ready yet. Grab the development version by by following the instructions below.
 
 ## Working on the extension
 
@@ -29,8 +20,8 @@ npm install -g aha-cli
 ```
 
 Clone the repo:
+https://github.com/amy-e-ellis/character-count/
 
-TODO: Add the repository URL here
 ```sh
 git clone ...
 ```
